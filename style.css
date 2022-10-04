@@ -5,11 +5,18 @@ html, body {
 h1 {
   background: lightblue;
   text-align: center;
-  float;
+  border: black solid 2px;
 }
 ol {
   background: lightcoral;
   width: 100%;
+}
+li > a {
+  text-decoration: none;
+  color:aquamarine;
+}
+li > a:hover{
+  color: purple;
 }
 body {
   background: lightgrey
