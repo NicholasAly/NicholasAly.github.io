@@ -5,8 +5,12 @@ html, body {
 h1 {
   background: lightblue;
   text-align: center;
+  float;
 }
 ol {
   background: lightcoral;
-  text-align: center;
+  width: 100%;
+}
+body {
+  background: lightgrey
 }
