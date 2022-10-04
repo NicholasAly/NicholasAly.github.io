@@ -1,0 +1,22 @@
+*{
+  font-family: sans-serif;
+}
+header{
+  background-color: crimson;
+  height:40px;
+
+}
+header > a:hover{
+  color: white;
+}
+header > a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  margin: auto;
+  position: relative;
+  top: 2px;
+}
+body{
+  background: ghostwhite	;
+}
