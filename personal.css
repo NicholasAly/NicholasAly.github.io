@@ -13,10 +13,25 @@ header > a{
   text-decoration: none;
   color: black;
   font-size: 30px;
-  margin: auto;
   position: relative;
   top: 2px;
+  padding-bottom: 5px;
 }
 body{
+  
   background: whitesmoke	;
+}
+#left{
+  float: left;
+  width: 100%;
+  background-image: url(black-back.jpg);
+  color:white;
+}
+#right{
+  float: right;
+  
+}
+div{
+  font-family: roman;
+  font-size: 25px;
 }
