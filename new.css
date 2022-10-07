@@ -1,0 +1,50 @@
+*{
+  font-family: sans-serif;
+}
+header{
+  background-color: crimson;
+  height:40px;
+
+}
+header > a:hover{
+  color: white;
+}
+header > a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  position: relative;
+  top: 2px;
+  padding-bottom: 5px;
+}
+body{
+  background-image: url(nature.jpg);
+  
+}
+#center{
+  
+  margin: auto;
+  border: double black
+}
+td{
+  text-align: center;
+  background-image: none;
+  border: solid gray;
+  background-color: whitesmoke;
+}
+#clear{
+  border: none;
+  background-color: transparent;
+}
+img{
+  height: 200px;
+  
+}
+td > a{
+  text-decoration: none;
+  color: maroon;
+  font-weight: bolder;
+}
+td > a:hover{
+  color: rebeccapurple;
+}
