@@ -17,25 +17,3 @@ header > a{
   top: 2px;
   padding-bottom: 5px;
 }
-body{
-  
-  background: whitesmoke	;
-}
-#left{
-  float: left;
-  width: 100%;
-  background-image: url(black-back.jpg);
-  color:white;
-}
-#right{
-  float: right;
-  height:500px;
-  
-}
-div{
-  font-family: roman;
-  font-size: 25px;
-}
-#photo{
-  width: 100%;
-}

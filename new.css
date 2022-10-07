@@ -26,13 +26,13 @@ body{
   margin: auto;
   border: double black
 }
-td{
+td,th{
   text-align: center;
   background-image: none;
   border: solid gray;
   background-color: whitesmoke;
 }
-#clear{
+.clear{
   border: none;
   background-color: transparent;
 }
@@ -47,4 +47,7 @@ td > a{
 }
 td > a:hover{
   color: rebeccapurple;
+}
+table{
+  width:75%;
 }
