@@ -1,0 +1,102 @@
+body {
+  background-color: ghostwhite;
+  
+}
+
+header {
+  background: none;
+  background-color: rgba(80, 0, 0, .5);
+  text-align: center;
+  color: gold;
+  font: italic normal 1.4em georgia, sans-serif;
+  float: left;
+  width: 100%;
+  border: outset;
+}
+header > h2{
+  color: rgba(255, 215, 0, .5);
+}
+.summary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90%;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  background: rgba(355, 355, 355, .2);
+  
+}
+h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background:url(https://wallpaperaccess.com/full/1251284.jpg) no-repeat top right;
+}
+
+.sidebar {
+	margin-left: 5px; 
+	position: fixed; 
+	top: 0; 
+	right: 0;
+  float: right;
+  background-image: linear-gradient(rgba(355,0,355,.5), yellow) ;
+  margin-top: 150px;
+  margin-right: 5px;
+  padding: 5px;
+  
+	}
+.sidebar  ul{
+  background-color: rgba(355, 355, 355, .5);
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: maroon;
+}
+a:hover {
+  color: gray;
+}
+a:visited{
+  color: darkgreen;
+}
+a:visited:hover{
+  color:gray;
+}
+/* [role=main]{
+  background-color: rgba(20,245,220,.3);
+  margin-right: 500px;
+} */
+#zen-explanation{
+  color: white;
+  background-color: rgba(220,245,20,.3);
+  margin-right: 400px;
+  margin-left: 100px;
+  text-align: center;
+}
+#zen-explanation h3{
+  background-color: rgba(245,245,20,.8);
+}
+.preamble{
+  background-color: rgba(20,245,220,.3);
+  margin-right: 500px;
+  text-align: center;
+}
+.preamble h3{
+  background-color: rgba(20,245,220,.8);
+}
+abbr:hover{
+  color: chocolate;
+  background-color: green;
+}
+.intro abbr{
+  text-decoration: none;
+}
+.participation{
+  background-color: rgba(355,0,355,.3) ;
+  text-align: center;
+  margin-right: 500px;
+}
+.participation h3{
+  background-color: rgba(355, 0, 355, .8);
+}
+
