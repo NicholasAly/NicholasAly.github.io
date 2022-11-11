@@ -1,0 +1,82 @@
+*{
+  font-family: sans-serif;
+}
+header{
+  background-color: crimson;
+  height:34pt;
+  margin-bottom: 8px;
+}
+header > a:hover{
+  color: white;
+}
+header > a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  position: relative;
+  top: 2px;
+  padding-bottom: 5px;
+}
+body{
+    background-color: whitesmoke;
+}
+.center{
+  text-align: center;
+    border: 3px solid gray;
+}
+.left{
+  text-align: left;
+  float: left;
+    border: 3px solid gray;
+}
+.right{
+  text-align: right;
+  float:right;
+    border: 3px solid gray;
+}
+div{
+  width: 100%;
+}
+#title{
+  font-size: 40px;
+}
+#publish{
+  background-color: dodgerblue;
+  color: white;
+}
+#publish:hover{
+  background-color: rgb(80,60,255);
+  cursor:pointer;
+}
+#auto{
+  background-color: lightgoldenrodyellow;
+  color: black;
+}
+#auto:hover{
+  background-color: yellow;
+  cursor:pointer;
+}
+button{
+  font-size: 19pt;
+}
+#introt{
+  font-size:26pt;
+}
+#introb{
+  width:50%;
+  height:185px
+}
+#body1t{
+  font-size:26pt;
+}
+#body1b{
+  width:50%;
+  height:185px
+}
+#body2t{
+  font-size:26pt;
+}
+#body2b{
+  width:50%;
+  height:185px
+}
