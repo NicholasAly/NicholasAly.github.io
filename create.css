@@ -1,0 +1,47 @@
+*{
+  font-family: sans-serif;
+}
+header{
+  background-color: crimson;
+  height:34pt;
+  margin-bottom: 8px;
+}
+header > a:hover{
+  color: white;
+}
+header > a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  position: relative;
+  top: 2px;
+  padding-bottom: 5px;
+}
+body{
+    background-color: whitesmoke;
+}
+.center{
+  text-align: center;
+}
+.left{
+  text-align: left;
+  float: left;
+}
+.right{
+  text-align: right;
+  float:right;
+}
+div{
+  width: 100%;
+  border: 3px solid gray;
+}
+#title{
+  font-size: 40px;
+}
+#publish{
+  background-color: dodgerblue;
+  color: white;
+}
+button{
+  font-size: 19pt;
+}
