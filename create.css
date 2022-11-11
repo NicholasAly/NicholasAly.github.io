@@ -56,6 +56,12 @@ div{
   background-color: yellow;
   cursor:pointer;
 }
+#autodate{
+  font-size:10pt;
+}
+#autodate:hover{
+  cursor:pointer;
+}
 button{
   font-size: 19pt;
 }
