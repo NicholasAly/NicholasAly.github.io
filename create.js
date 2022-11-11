@@ -31,9 +31,14 @@ function publish(){
   newWin.document.getElementById("body1img").setAttribute("src", document.getElementById("body1img").value);
   newWin.document.getElementById("body2img").setAttribute("src", document.getElementById("body2img").value);
 }
+function dater(){
+  document.getElementById("date").valueAsDate= new Date();
+}
 
 const btn1 = document.getElementById("auto");
 const btn2 = document.getElementById("publish");
+const btn3 = document.getElementById("autodate");
 
 btn1.addEventListener("click", autofill);
 btn2.addEventListener("click", publish);
+btn3.addEventListener("click", dater)
