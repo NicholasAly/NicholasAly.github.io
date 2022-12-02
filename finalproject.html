@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Daily news</title>
+  <link href="news.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div>
+<header>
+  <h1 id= "center">Get your daily news snippets on catagories you enjoy!</h1>
+</header>
+  </div>
+<div id = "center" class = "visible">
+  Getting new news takes a couple seconds to complete update.
+<div id="catagories">
+  <div id="cata">
+    <label for= "business"> Business </label><br>
+    <input type="checkbox" id="business" name="business">
+  </div>
+  <div id="cata">
+    <label for= "sports"> Sports </label><br>
+    <input type="checkbox" id="sports" name="sports">
+  </div>
+  <div id="cata">
+    <label for= "world"> World </label><br>
+    <input type="checkbox" id="world" name="world">
+  </div>
+  <div id="cata">
+    <label for= "technology"> Technology </label><br>
+    <input type="checkbox" id="technology" name="technology">
+  </div>
+  <div id="cata">
+    <label for= "entertainment"> Entertainment </label><br>
+    <input type="checkbox" id="entertainment" name="entertainment">
+  </div>
+  <div id="cata">
+    <label for= "science"> Science </label><br>
+    <input type="checkbox" id="science" name="science">
+  </div>
+  <div id="cata">
+    <label for= "automobile"> Automobile </label><br>
+    <input type="checkbox" id="automobile" name="automobile">
+  </div>
+  </div>
+  <div class = "visible">
+    Select catagories of choice. Selects all by default.<br>
+    <button type="button" id="getNews" class="myButton">Get Top News!</button>
+    <button type="button" id="getInflation" class = "myButton" value="Show Graph" onclick="loadjsfile('chart.js','js')"> Get Inflation Chart!</button>
+  </div>
+</div>
+<div id = "content">
+
+  
+</div>
+  
+<script src="news.js"></script>
+<!--   Google Charts Library -->
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load('visualization', '1', {'packages':['corechart']});
+// special thanks to https://stackoverflow.com/questions/13219015/google-charts-external-javascript-issue
+function loadjsfile(filename, filetype) 
+     {
+  var fileref=document.createElement('script')
+  fileref.setAttribute("type","text/javascript");
+  fileref.setAttribute("src", filename);
+  document.getElementsByTagName("head")[0].appendChild(fileref)
+     }
+</script>
+</body>
+
+</html>
